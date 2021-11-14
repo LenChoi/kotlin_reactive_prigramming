@@ -22,5 +22,9 @@ class Util {
         fun faker(): Faker {
             return FAKER
         }
+
+        fun sleepSeconds(seconds: Int) {
+            Thread.sleep((seconds * 1000).toLong())
+        }
     }
 }

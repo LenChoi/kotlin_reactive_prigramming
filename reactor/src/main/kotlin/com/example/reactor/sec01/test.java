@@ -1,13 +1,8 @@
 package com.example.reactor.sec01;
 
+import com.example.reactor.courseutil.Util;
 import reactor.core.publisher.Mono;
-
-import java.util.function.Consumer;
 
 public class test {
 
-
-    public static Consumer<Object> onNext(){
-        return o -> System.out.println("Receive: " + o);
-    }
 }
